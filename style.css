@@ -291,3 +291,16 @@ footer {
     gap: 35px;
     justify-content: center;
 }
+
+@media screen and (max-width: 576px) {
+    .navbar, .navbar ul, .navbar > img, .navbar h3,.body,.body img,.body h2,.card img,.gamer-container,.game-cards{
+    align-items: center;
+    flex-direction: column;
+  }
+  .social {
+    display: flex;
+  }
+  .gamer-container > img {
+    width: 100vw;
+  }
+  }
